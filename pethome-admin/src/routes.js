@@ -12,6 +12,7 @@ import echarts from './views/charts/echarts.vue'
 import Department from './views/org/Department'
 import Employee from './views/org/Employee'
 import Role from './views/permission/Role'
+import Shop from './views/org/Shop'
 
 let routes = [
     {
@@ -56,6 +57,7 @@ let routes = [
         children: [
             { path: '/dept', component: Department, name: '部门管理'},
             { path: '/emp', component: Employee, name: '员工管理' },
+            { path: '/shop', component: Shop, name: '加盟管理' }
         ]
     },
     {
