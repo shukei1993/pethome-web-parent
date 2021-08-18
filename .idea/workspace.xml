@@ -1,8 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c697fc5-4f8d-4763-b2aa-e6f3c0eca7c7" name="Default" comment="">
+    <list default="true" id="8c697fc5-4f8d-4763-b2aa-e6f3c0eca7c7" name="Default" comment="前端pethome-admin 店铺入驻,审核功能">
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/admin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/amazeui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/landing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/AmazeUI-2.4.2/assets/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/chongzhi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/ibar_sprites.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/logobar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/logobig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/no-img_mid_.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/wdsc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/images/weixin_code_145.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/js/jquery-1.7.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/js/jquery-1.9.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/basic/js/quick_links.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/addstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/appstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/bilstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/blogstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/blstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/bostyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/cartstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/cmstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/colstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/cpstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/dlstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/footstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/hmstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/infstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/jsstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/lostyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/newstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/optstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/orstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/personal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/refstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/seastyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/skin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/sortstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/stepstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/sustyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/css/systyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/-0-saturn_solar.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/0-item_pic.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/01_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/01_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/02_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/02_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/03_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/03_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/1-item_pic.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/1_160x160.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/2016.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/3CoOkxrFOP.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/556.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/557.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/559.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/566.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/566fda5cN4b8a1675.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/62988.jpg_80x80.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/65.jpg_120x120xz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/72h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/88.jpg_120x120xz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/T13iv.XiFdXXa94Hfd-32-32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/TB102.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/TB1_pic.jpg_200x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/TJ.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/TJ2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/YXARdXxj5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/act1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/act2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/act3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/activity.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/activity1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/activity2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/activity3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ad8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/addbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/addicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/addicon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/addicon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/advTip.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/bamboo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/bamboo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/big.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/blog09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/bonus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/browse1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cake.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/candy.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/candy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cardbg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/checkbox.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/chocolate.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/chocolate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/chongzhi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/clockbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/combo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/comment.jpg_400x400.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/comment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cookies.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cookies.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/coupon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/coupon2015.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/coupon20150805.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/couponli.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cp.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/cp2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/day-to.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/extra.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/fish.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/fish.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/getAvatar.do.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_intro_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_stamp_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_stamp_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_stamp_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_stamp_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/gift_stamp_31.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/header-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/header-bg1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/huismall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/hwbn40x40.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/ibar_sprites.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/icon-sale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconbig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconfont-bad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconfont-badon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconfont-evaluate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconfont-good.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconfont-middle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconsmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconsmall0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconsmall1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconsmall2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/iconsmall3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/imgsearch1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/index_ico_png32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/item-pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/kouhong.jpg_80x80.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/kuaidi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/list1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/listsmall1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/logo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/logobig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/logobig1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/logobig2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/mansmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/mask.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/meat.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/meat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/moneysmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/mygift_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/navce.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/navsmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/no-img_mid_.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/nut.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/nut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/package.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/package.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/pay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/peraddbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/peraddress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/peraddressbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/receive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/refund.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/return-process-cd.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/row1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/row2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/row3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/row4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sale-t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sale-t_clock.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sale1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sale2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sale3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/scoll1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/scoll2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/send.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/side.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/songzi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/sys_item_selected.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tea.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tea.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tj1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tj2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/tw7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/wallet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/wangyin.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/wdsc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/weixin_code_145.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/weizhifu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/zhifubao.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/images/图标.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/address.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/commons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/jquery-1.7.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/jquery.flexslider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/jquery.imagezoom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/js/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pethome-front/register.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pethome-front/pethome-front.iml" afterPath="$PROJECT_DIR$/pethome-front/pethome-front.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,46 +294,68 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pethome-front/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pethome-front/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-                <element signature="e#218#252#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="547">
+              <caret line="166" column="17" lean-forward="true" selection-start-line="163" selection-start-column="16" selection-end-line="166" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Table.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+      <file leaf-file-name="commons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pethome-front/js/commons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopRegister2.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/ShopRegister2.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="27" column="51" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="27" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -58,6 +363,24 @@
       <find>vueadmin</find>
       <find>formatSex</find>
       <find>handleDel</find>
+      <find>selsChange</find>
+      <find>clearable</find>
+      <find>sels</find>
+      <find>dblHandleCurrentChange</find>
+      <find>drawer</find>
+      <find>listLoading2</find>
+      <find>sels2</find>
+      <find>分页</find>
+      <find>listDataOfDirectoryDetail</find>
+      <find>filters</find>
+      <find>saveForm2</find>
+      <find>add</find>
+      <find>checkFormVisible</find>
+      <find>textarea</find>
+      <find>prop</find>
+      <find>form</find>
+      <find>formRules</find>
+      <find>validatePass2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,9 +397,19 @@
         <option value="$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue" />
         <option value="$PROJECT_DIR$/pethome-admin/config/index.js" />
         <option value="$PROJECT_DIR$/pethome-admin/src/views/Home.vue" />
-        <option value="$PROJECT_DIR$/pethome-admin/src/routes.js" />
         <option value="$PROJECT_DIR$/pethome-admin/src/main.js" />
         <option value="$PROJECT_DIR$/pethome-admin/src/views/dept/Department.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/org/Department.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/org/Employee.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/system/DictionaryType.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/static/aaa.html" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/routes.js" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/ShopRegister.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/ShopRegister2.vue" />
+        <option value="$PROJECT_DIR$/pethome-admin/src/views/org/Shop.vue" />
+        <option value="$PROJECT_DIR$/pethome-front/js/commons.js" />
+        <option value="$PROJECT_DIR$/pethome-front/register.html" />
       </list>
     </option>
   </component>
@@ -90,12 +423,14 @@
     <handled-path value="$PROJECT_DIR$/pethome-admin/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
-    <option name="y" value="86" />
-    <option name="width" value="1592" />
-    <option name="height" value="963" />
+    <option name="x" value="64" />
+    <option name="y" value="21" />
+    <option name="width" value="1739" />
+    <option name="height" value="1029" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -112,6 +447,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,13 +455,23 @@
               <item name="pethome-web-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pethome-web-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pethome-web-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,7 +483,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pethome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-front\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-front" />
+      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,42 +607,79 @@
       <workItem from="1628488972241" duration="16916000" />
       <workItem from="1628519327203" duration="3531000" />
       <workItem from="1628765629822" duration="1631000" />
+      <workItem from="1628847692645" duration="54000" />
+      <workItem from="1628851542500" duration="1863000" />
+      <workItem from="1628899676979" duration="3198000" />
+      <workItem from="1628902914310" duration="23607000" />
+      <workItem from="1629078530779" duration="9595000" />
+      <workItem from="1629094078352" duration="11467000" />
+      <workItem from="1629121342997" duration="7087000" />
+      <workItem from="1629136646447" duration="8000" />
+      <workItem from="1629158838208" duration="2142000" />
+      <workItem from="1629162538903" duration="2844000" />
+      <workItem from="1629173886703" duration="3033000" />
+      <workItem from="1629181178178" duration="28000" />
+      <workItem from="1629181221215" duration="6000" />
+      <workItem from="1629181591577" duration="91000" />
+      <workItem from="1629181690632" duration="15000" />
+      <workItem from="1629193880244" duration="3973000" />
+      <workItem from="1629273176185" duration="3136000" />
+      <workItem from="1629276469734" duration="124000" />
+      <workItem from="1629276712894" duration="143000" />
+      <workItem from="1629276873677" duration="113000" />
+      <workItem from="1629277000346" duration="8318000" />
     </task>
+    <task id="LOCAL-00001" summary="前端pethome-admin 店铺入驻,审核功能">
+      <created>1629276330828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629276330829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28151000" />
+    <option name="totallyTimeSpent" value="108996000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="86" width="1592" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="21" width="1739" height="1029" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45644984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26753247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2069378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20252325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14640048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -295,30 +688,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45644984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26901874" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20302376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2069378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14686824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,13 +720,124 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="前端pethome-admin 店铺入驻,审核功能" />
+    <MESSAGE value="前端pethome-front,登录验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端pethome-front,登录验证" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Shop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Department.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="310" column="56" lean-forward="false" selection-start-line="310" selection-start-column="56" selection-end-line="311" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6630">
+          <caret line="267" column="22" lean-forward="false" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Shop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="77" column="34" lean-forward="true" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -346,10 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#218#252#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -357,11 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
           <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,10 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#218#252#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -388,11 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="17" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -409,10 +897,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#218#252#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,11 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
           <caret line="162" column="14" lean-forward="false" selection-start-line="159" selection-start-column="12" selection-end-line="162" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -471,40 +949,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pethome-admin/node_modules/element-ui/packages/button/src/button.vue" />
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/dept/Department.vue" />
+    <entry file="file://$PROJECT_DIR$/pethome-admin/node_modules/element-ui/packages/select/src/option.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/system/DictionaryType.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="235" column="43" lean-forward="false" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Department.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4863">
+          <caret line="340" column="0" lean-forward="false" selection-start-line="340" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/static/aaa.html" />
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Shop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="336" column="40" lean-forward="false" selection-start-line="336" selection-start-column="40" selection-end-line="336" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pethome-admin/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/nav1/Table.vue">
+    <entry file="file://$PROJECT_DIR$/pethome-front/js/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-front/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-front/js/plugins/axios/dist/axios.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/dept/Department.vue" />
-    <entry file="file://$PROJECT_DIR$/pethome-admin/src/main.js">
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/org/Employee.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#218#252#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2190">
+          <caret line="192" column="43" lean-forward="false" selection-start-line="192" selection-start-column="43" selection-end-line="192" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/ShopRegister.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="90" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-front/js/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-front/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="166" column="17" lean-forward="true" selection-start-line="163" selection-start-column="16" selection-end-line="166" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pethome-admin/src/views/ShopRegister2.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="27" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

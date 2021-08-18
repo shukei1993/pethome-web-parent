@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pethome-admin/pethome-admin.iml" filepath="$PROJECT_DIR$/pethome-admin/pethome-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pethome-front/pethome-front.iml" filepath="$PROJECT_DIR$/pethome-front/pethome-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pethome-admin/pethome-front.iml" filepath="$PROJECT_DIR$/pethome-admin/pethome-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$//pethome-front.iml" filepath="$PROJECT_DIR$//pethome-front.iml" />
     </modules>
   </component>
 </project>
