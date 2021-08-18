@@ -9,8 +9,12 @@
                 <el-form-item>
                     <el-input v-model="query.phone" placeholder="电话"></el-input>
                 </el-form-item>
-                <el-form-item>
-                    <el-input v-model="query.stateStr" placeholder="状态"></el-input>
+                <el-form-item label-width="50px" label="状态">
+                    <el-select v-model="query.state" placeholder="请选择" clearable>
+                        <el-option label="待激活" value="0"></el-option>
+                        <el-option label="启用" value="1"></el-option>
+                        <el-option label="禁用" value="-1"></el-option>
+                    </el-select>
                 </el-form-item>
                 <el-form-item>
                     <el-button type="primary" v-on:click="search">查询</el-button>
@@ -81,7 +85,7 @@
                 <el-form-item label="状态">
                     <el-radio-group v-model="saveForm.state">
                         <el-radio class="radio" :label="1">启用</el-radio>
-                        <el-radio class="radio" :label="0">未激活</el-radio>
+                        <el-radio class="radio" :label="0">待激活</el-radio>
                         <el-radio class="radio" :label="-1">禁用</el-radio>
                     </el-radio-group>
                 </el-form-item>
@@ -111,7 +115,6 @@
                     username: '', // 姓名用于高级查询
                     phone: '', // 电话用于高级查询
 
-                    stateStr: '', // 状态用于高级查询,需要转换
                     state: null,
                 },
 
@@ -119,6 +122,7 @@
                 saveFormVisible: false, // 是否显示新增/编辑界面
                 saveLoading:false, // 页面是否加载
                 saveForm: { // 双向绑定表单中的内容
+                    id: null,
                     username: '',
                     email: '',
                     phone: '',
@@ -150,9 +154,9 @@
                 return row.state == 1 ? '启用' : row.state == 0 ? '待激活' : row.state == -1 ? '禁用' : null;
             },*/
             // 员工状态显示转换2
-            formatState2: function (query) {
+            /*formatState2: function (query) {
                 return query.stateStr == '启用' ? 1 : query.stateStr == '待激活' ? 0 : query.stateStr == '禁用' ? -1 : null;
-            },
+            },*/
             // 1.发送请求,加载页面查询真实数据(分页查询,需要两个参数pageSize和currentPage,封装到query对象中去)
             loadEmpList() {
                 this.$http.post("/emp", this.query).then(res => {
@@ -182,12 +186,11 @@
             },
             // 4.高级查询
             search() {
-                // 状态需要重新设置一下
-                this.query.state = this.formatState2(this.query);
                 // console.debug(this.query.state) // 0 1 -1
                 // // 将query.stateStr清空
                 // this.query.stateStr = '';
                 // 调用loadEmpList方法
+                this.query.currentPage = 1;
                 this.loadEmpList();
                 // console.debug(this.query.state) // 0 1 -1
             },
@@ -292,6 +295,14 @@
             },
             // 9.保存
             saveSubmit() {
+                if(this.saveForm.id == null) {
+                    // 添加就重新设置currentPage
+                    let totalPage = Math.ceil((this.total + 1) / this.query.pageSize); // 添加一条后的总页数
+                    // 如果当前页小于总页数,重新设置设置当前页为总页数(翻页)
+                    this.query.currentPage = this.query.currentPage < totalPage ? totalPage : this.query.currentPage;
+                    // total手动加1
+                    this.total ++;
+                }
                 // console.debug(this.saveForm); // 因为双向绑定,数据已经在里面
                 // 发送请求put 添加数据即可
                 this.$http.put("/emp", this.saveForm).then(res => {
@@ -302,11 +313,7 @@
                             message: message,
                             type: 'success'
                         });
-                        console.debug(this.query.currentPage) // 不管在哪一页这个页数都是添加前的最后一页
-                        // 重新设置currentPage
-                        let totalPage = Math.ceil((this.total + 1) / this.query.pageSize); // 添加一条后的总页数
-                        // 如果当前页小于总页数,重新设置设置当前页为总页数(翻页)
-                        this.query.currentPage = this.query.currentPage < totalPage ? totalPage : this.query.currentPage;
+                        // console.debug(this.query.currentPage) // 不管在哪一页这个页数都是添加前的最后一页
                     } else {
                         // 失败提示
                         this.$message.error({
@@ -319,9 +326,6 @@
                     this.saveFormVisible = false;
                     // 重新加载页面
                     this.loadEmpList();
-                    // total手动
-                    this.total ++;
-                    console.debug(this.query.currentPage)
                 })
             }
         },

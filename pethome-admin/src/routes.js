@@ -13,11 +13,26 @@ import Department from './views/org/Department'
 import Employee from './views/org/Employee'
 import Role from './views/permission/Role'
 import Shop from './views/org/Shop'
+import DictionaryType from './views/system/DictionaryType'
+import ShopRegister from './views/ShopRegister'
+import ShopRegister2 from './views/ShopRegister2'
 
 let routes = [
     {
         path: '/login',
         component: Login,
+        name: '',
+        hidden: true
+    },
+    {
+        path: '/register',
+        component: ShopRegister,
+        name: '',
+        hidden: true
+    },
+    {
+        path: '/register2',
+        component: ShopRegister2,
         name: '',
         hidden: true
     },
@@ -36,7 +51,7 @@ let routes = [
         children: [
             { path: '/main', component: Main, name: '系统日志'},
             { path: '/table', component: Table, name: '性能监控' },
-            { path: '/form', component: Form, name: '数据字典' },
+            { path: '/dic', component: DictionaryType, name: '数据字典' },
         ]
     },
    {
@@ -57,7 +72,7 @@ let routes = [
         children: [
             { path: '/dept', component: Department, name: '部门管理'},
             { path: '/emp', component: Employee, name: '员工管理' },
-            { path: '/shop', component: Shop, name: '加盟管理' }
+            { path: '/shop', component: Shop, name: '门店审核' }
         ]
     },
     {

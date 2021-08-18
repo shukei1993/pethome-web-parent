@@ -153,6 +153,7 @@
                     ]
                 },
                 saveForm: { // 添加/编辑的界面数据,数据双向绑定
+                    id: null,
                     name: '',
                     sn: '',
                     state: 1, // 默认启用
@@ -318,6 +319,14 @@
             },
             // 7.保存
             saveSubmit() {
+                if (this.saveForm.id == null) {
+                    // 添加就重新设置当前页
+                    // 重新设置currentPage,会自动跳到添加后的那一页
+                    let totalPage = Math.ceil((this.total + 1) / this.query.pageSize); // 添加一条后的总页数
+                    this.query.currentPage = this.query.currentPage < totalPage ? totalPage : this.query.currentPage;
+                    // 手动设置total加1
+                    this.total ++;
+                }
                 // 发送put请求添加/修改数据,因为双向绑定了属性,所以this.saveForm就是提交的数据
                 this.$http.put("/dept", this.saveForm).then(res => {
                     // 开启加载效果
@@ -329,12 +338,6 @@
                             type: 'success',
                             message: message // 保存成功提示:"操作成功"
                         });
-
-                        // 设置currentPage的值,ceil=>向上取整
-                        const totalPage = Math.ceil((this.total + 1) / this.query.pageSize) // 添加一条后的总页数
-                        // 当前页(添加前),如果小于添加一条后的总页数,表示该当前页数据全部已经占满,将当前页设置为添加后的总页数(跳到下一页),反之就是它本身就行
-                        this.query.currentPage = this.query.currentPage < totalPage ? totalPage : this.query.currentPage
-
                     } else { // 失败提示异常
                         this.$message.error('操作异常');
                     }
