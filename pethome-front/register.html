@@ -63,7 +63,7 @@
                             </label>
                         </div>
                         <div class="am-cf">
-                            <input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                            <input type="submit" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
                         </div>
 
                     </div>
@@ -87,16 +87,16 @@
                             </div>
                             <div class="user-pass">
                                 <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-                                <input type="password" v-model="addForm.comfirmPassword" name="" id="passwordRepeat" placeholder="确认密码">
+                                <input type="password" v-model="addForm.confirmPassword" name="" id="passwordRepeat" placeholder="确认密码">
                             </div>
                         </form>
                         <div class="login-links">
                             <label for="reader-me">
-                                <input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+                                <input type="checkbox"> 点击表示您同意商城《服务协议》
                             </label>
                         </div>
                         <div class="am-cf">
-                            <input @click="submit" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                            <input type="button" @click="submit" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
                         </div>
 
                         <hr>
@@ -137,6 +137,7 @@
             </p>
         </div>
     </div>
+</div>
 </body>
 <script>
     new Vue({
@@ -146,7 +147,7 @@
                 phone: "",
                 code: "",
                 password: '',
-                comfirmPassword: ''
+                confirmPassword: ''
             },
             disabled: false,
             btnName: "获取",
@@ -181,7 +182,8 @@
                             that.btnName = time + "s";
                         }, 1000)
                     } else {
-
+                        alert(res.data.message);
+                        this.disabled = false;
                     }
                 }).catch(() => {
                     alert("发送失败，请稍后重试");
@@ -196,19 +198,21 @@
                     alert("请输入验证码!")
                 } else if (!this.addForm.password) {
                     alert("请输入密码!")
-                } else if (!this.addForm.comfirmPassword) {
+                } else if (!this.addForm.confirmPassword) {
                     alert("请确认密码!")
-                } else if (this.addForm.password != this.addForm.comfirmPassword) {
+                } else if (this.addForm.password != this.addForm.confirmPassword) {
                     alert("两次输入密码不一致!")
                 } else {
-                    // alert("提交")
-                    this.$http.post("/user", this.addForm).then(res => {
+                    // 注册提交
+                    // console.debug(this.addForm);
+                    this.$http.post("/user/register", this.addForm).then(res => {
                         let{success, message} = res.data;
                         if (success) {
                             // 注册成功,跳转登录页面
-
+                            location.href = "/login.html";
                         } else {
-
+                            // 失败提示错误信息
+                            alert(message);
                         }
                     })
                 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回调处理</title>
+    <!-- vue,axios,baseUrl -->
+    <script src="js/plugins/vue/dist/vue.min.js"></script>
+    <script src="js/plugins/axios/dist/axios.min.js"></script>
+    <script src="js/commons.js"></script>
+</head>
+<body>
+    <div id="app"><h1>回调处理</h1></div>
+    <script>
+        new Vue({
+            data: {
+
+            },
+            methods: {
+
+            },
+            mounted() {
+                // 1.页面一加载就获取url中的code
+                var urlParams = new URLSearchParams(window.location.search);
+                var code = {
+                    "code": urlParams.get("code")
+                }
+                // 2.发送请求,将code传向后端
+                this.$http.post("/wechat/login", code).then(res => {
+                    if (res.data.resultObj.urlMap != null) { // 新用户
+                        location.href=res.data.resultObj.urlMap; // 跳转至绑定页面
+                    } else { // 老用户
+                        // 跳转到首页面
+                        window.location.href = "/index.html";
+                    }
+                })
+            }
+        }).$mount("#app")
+
+    </script>
+</body>
+</html>
