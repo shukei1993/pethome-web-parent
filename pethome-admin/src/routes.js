@@ -16,6 +16,7 @@ import Shop from './views/org/Shop'
 import DictionaryType from './views/system/DictionaryType'
 import ShopRegister from './views/ShopRegister'
 import ShopRegister2 from './views/ShopRegister2'
+import SearchMasterInfo from './views/pet/SearchMasterInfo'
 
 let routes = [
     {
@@ -72,7 +73,18 @@ let routes = [
         children: [
             { path: '/dept', component: Department, name: '部门管理'},
             { path: '/emp', component: Employee, name: '员工管理' },
-            { path: '/shop', component: Shop, name: '门店审核' }
+            { path: '/shop', component: Shop, name: '门店审核' },
+        ]
+    },
+    {
+        path: '/',
+        component: Home,
+        name: '门店管理',
+        iconCls: 'el-icon-message',//图标样式class
+        children: [
+            { path: '/searchMasterInfo', component: SearchMasterInfo, name: '寻主信息推送' },
+            { path: '/form', component: Form, name: 'Form' },
+            { path: '/user', component: user, name: '列表' },
         ]
     },
     {

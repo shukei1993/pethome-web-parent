@@ -54,25 +54,52 @@
       handleSubmit2(ev) {
         var _this = this;
         this.$refs.ruleForm2.validate((valid) => {
+            // console.debug(valid)
           if (valid) {
             //_this.$router.replace('/table');
             this.logining = true;
             //NProgress.start();
             var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-            requestLogin(loginParams).then(data => {
-              this.logining = false;
-              //NProgress.done();
-              let { msg, code, user } = data;
-              if (code !== 200) {
-                this.$message({
-                  message: msg,
-                  type: 'error'
-                });
+            // 发送post请求
+            this.$http.post("/emp/login", loginParams).then(res => {
+              console.debug(res);
+              let {success, message, resultObj} = res.data
+              // console.debug(resultObj);
+              if (success) {
+                  let {token, loginInfo} = resultObj;
+                  // 将loginInfo对象转换成json字符串
+                  let loginInfoStr = JSON.stringify(loginInfo);
+                  // 保存resultObj中的token密钥和loginInfoStr到浏览器本地存储中
+                  localStorage.setItem("token", token);
+                  localStorage.setItem("loginInfo", loginInfoStr);
+                  this.$message({
+                      type: "success",
+                      message: "登录成功,欢迎回来"
+                  });
+                  this.logining = false;
+                  location.href="/"; // 跳转到首页
               } else {
-                sessionStorage.setItem('user', JSON.stringify(user));
-                this.$router.push({ path: '/table' });
+                  this.$message.error({
+                      type: "warning",
+                      message: message
+                  })
+                  this.logining = false;
               }
-            });
+            })
+            // requestLogin(loginParams).then(data => {
+            //   this.logining = false;
+            //   //NProgress.done();
+            //   let { msg, code, user } = data;
+            //   if (code !== 200) {
+            //     this.$message({
+            //       message: msg,
+            //       type: 'error'
+            //     });
+            //   } else {
+            //     sessionStorage.setItem('user', JSON.stringify(user));
+            //     this.$router.push({ path: '/table' });
+            //   }
+            // });
           } else {
             console.log('error submit!!');
             return false;
