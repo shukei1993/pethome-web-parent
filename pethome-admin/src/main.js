@@ -31,24 +31,25 @@ const router = new VueRouter({
   routes
 })
 
-/*// 前置登录拦截器
+// 前置路由拦截器
 router.beforeEach((to, from, next) => {
   //NProgress.start();
-  if (to.path == '/login') {
-    sessionStorage.removeItem('user');
+  if (to.path === '/login') {
+    localStorage.removeItem('token');
   }
-  let user = JSON.parse(sessionStorage.getItem('user'));
-  if (!user && to.path != '/login') {
+  let token = localStorage.getItem("token");
+  if (!token && to.path !== '/login') {
     next({ path: '/login' })
   } else {
     next()
   }
-})*/
+});
+
 // 3.配置前置拦截器
 axios.interceptors.request.use(config => {
     // 获取token
     let token = localStorage.getItem("token")
-    console.debug(config);
+    // console.debug(config);
     if (token) {
         // 如果有token,将token添加到请求头中
         config.headers['TOKEN'] = token;
@@ -63,7 +64,9 @@ axios.interceptors.response.use(config => {
     // console.debug(config);
     return config;
     if (!config.data.success && config.data.message === "noAuth") {
-        location.href = "/login.html";
+        localStorage.removeItem("token")
+        localStorage.removeItem("loginInfo")
+        location.href = "/#/login";
     }
 }, error => {
     Promise.reject(error);

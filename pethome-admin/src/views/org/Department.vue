@@ -349,7 +349,7 @@
                     // 重新加载页面
                     this.loadListData();
                     // 手动total +1, 让页面显示正常的页数
-                    this.total ++;
+                    // this.total ++;
                     // console.debug(this.total); // 21
                 })
             },

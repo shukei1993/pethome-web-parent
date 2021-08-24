@@ -17,6 +17,7 @@ import DictionaryType from './views/system/DictionaryType'
 import ShopRegister from './views/ShopRegister'
 import ShopRegister2 from './views/ShopRegister2'
 import SearchMasterInfo from './views/pet/SearchMasterInfo'
+import Pet from './views/pet/Pet'
 
 let routes = [
     {
@@ -79,11 +80,11 @@ let routes = [
     {
         path: '/',
         component: Home,
-        name: '门店管理',
+        name: '宠物管理',
         iconCls: 'el-icon-message',//图标样式class
         children: [
             { path: '/searchMasterInfo', component: SearchMasterInfo, name: '寻主信息推送' },
-            { path: '/form', component: Form, name: 'Form' },
+            { path: '/pet', component: Pet, name: '上架管理' },
             { path: '/user', component: user, name: '列表' },
         ]
     },

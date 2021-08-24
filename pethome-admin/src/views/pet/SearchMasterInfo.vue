@@ -24,24 +24,64 @@
 
         <!-- 2.数据展示,编辑,单条删除 -->
         <el-table :data="listData" highlight-current-row v-loading="listLoading" @selection-change="selsChange" style="width: 100%;">
+
+            <el-table-column type="expand">
+                <template slot-scope="props">
+                    <el-form label-position="left" inline class="demo-table-expand">
+                        <el-form-item label="宠物名">
+                            <span>{{ props.row.name }}</span>
+                        </el-form-item>
+                        <el-form-item label="价格">
+                            <span>{{ props.row.price }}</span>
+                        </el-form-item>
+                        <el-form-item label="年龄">
+                            <span>{{ props.row.age }}岁</span>
+                        </el-form-item>
+                        <el-form-item label="性别">
+                            <template scope="scope">
+                                <span v-if="props.row.gender === 0" style="color: black">母</span>
+                                <span v-if="props.row.gender === 1" style="color: black">公</span>
+                            </template>
+                        </el-form-item>
+                        <el-form-item label="毛色">
+                            <span>{{ props.row.coat_color }}</span>
+                        </el-form-item>
+                        <el-form-item label="展示">
+                            <span>{{ props.row.resources }}</span>
+                        </el-form-item>
+                        <el-form-item label="类型">
+                            <span>{{ props.row.pet_type }}</span>
+                        </el-form-item>
+                        <el-form-item label="地址">
+                            <span>{{ props.row.address }}</span>
+                        </el-form-item>
+                        <el-form-item label="状态">
+                            <template scope="scope">
+                                <span v-if="props.row.state === 0" style="color: lightslategrey">待审核</span>
+                                <span v-if="props.row.state === 1" style="color: #11b95c">审核通过</span>
+                                <span v-if="props.row.state === -1" style="color: red">驳回</span>
+                            </template>
+                        </el-form-item>
+                        <el-form-item label="发布人">
+                            <span>{{ props.row.user_id }}</span>
+                        </el-form-item>
+                    </el-form>
+                </template>
+            </el-table-column>
+
             <el-table-column type="selection" width="50"></el-table-column>
             <el-table-column type="index" width="50"></el-table-column>
-            <el-table-column prop="name" label="店名" width="80"></el-table-column>
-            <el-table-column prop="tel" label="电话" width="120"></el-table-column>
-            <el-table-column prop="registerTime" label="注册日期" width="120" sortable></el-table-column>
-            <el-table-column prop="state" label="状态" width="100" sortable>
+            <el-table-column prop="title" label="推送标题" width="200"></el-table-column>
+            <el-table-column prop="price" label="价格" width="200"></el-table-column>
+            <el-table-column prop="state" label="状态" width="200" sortable>
                 <template scope="scope">
                     <span v-if="scope.row.state === 0" style="color: lightslategrey">待审核</span>
                     <span v-if="scope.row.state === 1" style="color: #11b95c">审核通过</span>
                     <span v-if="scope.row.state === -1" style="color: red">驳回</span>
                 </template>
-            </el-table-column> <!-- :formatter="formatState" -->
-            <el-table-column prop="address" label="地址" min-width="180" sortable></el-table-column>
-            <el-table-column prop="logo" label="标志" width="120"></el-table-column>
+            </el-table-column> &lt;!&ndash; :formatter="formatState" &ndash;&gt;
 
-            <!--<el-table-column prop="admin_id" label="管理员" width="120"></el-table-column>-->
-
-            <el-table-column label="操作" width="250">
+            <el-table-column label="操作" width="300">
                 <template scope="scope">
                     <el-button type="warning" size="small" :disabled="scope.row.state === 1" @click="check(scope.$index, scope.row)">审核</el-button>
                     <el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
@@ -242,5 +282,16 @@
 </script>
 
 <style scoped>
-
+    .demo-table-expand {
+        font-size: 0;
+    }
+    .demo-table-expand label {
+        width: 90px;
+        color: #99a9bf;
+    }
+    .demo-table-expand .el-form-item {
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 50%;
+    }
 </style>
