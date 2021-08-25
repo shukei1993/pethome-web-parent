@@ -26,11 +26,21 @@
                 }
                 // 2.发送请求,将code传向后端
                 this.$http.post("/wechat/login", code).then(res => {
-                    if (res.data.resultObj.urlMap != null) { // 新用户
-                        location.href=res.data.resultObj.urlMap; // 跳转至绑定页面
-                    } else { // 老用户
-                        // 跳转到首页面
-                        window.location.href = "/index.html";
+                    if (res.data.success) {
+                        if (res.data.resultObj.urlMap != null) { // 新用户
+                            location.href = res.data.resultObj.urlMap; // 跳转至绑定页面
+                        } else { // 老用户
+                            let {token, loginInfo} = res.data.resultObj;
+                            // 将loginInfo对象转换成json字符串
+                            let loginInfoStr = JSON.stringify(loginInfo);
+                            // 保存resultObj中的token密钥和loginInfoStr到浏览器本地存储中
+                            localStorage.setItem("token", token);
+                            localStorage.setItem("loginInfo", loginInfoStr);
+                            // 跳转到首页面
+                            window.location.href = "/index.html";
+                        }
+                    } else {
+
                     }
                 })
             }
