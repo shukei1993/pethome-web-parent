@@ -275,13 +275,14 @@
             publish(){
                 this.$http.post("/searchMasterMsg/publish",this.searchMasterMsg)
                     .then(result=>{
+                        console.debug(result)
                         //发布成功后就跳转到主页
                         result = result.data;
                         if(result.success){
                             alert("发布成功！");
                             location.href = "/index.html"
                         }else{
-                            alert(result.message);
+                            alert(result.data.message);
                         }
                     })
             }
