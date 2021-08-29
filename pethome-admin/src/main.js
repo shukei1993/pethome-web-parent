@@ -62,12 +62,12 @@ axios.interceptors.request.use(config => {
 // 4.配置后置拦截器
 axios.interceptors.response.use(config => {
     // console.debug(config);
-    return config;
     if (!config.data.success && config.data.message === "noAuth") {
         localStorage.removeItem("token")
         localStorage.removeItem("loginInfo")
         location.href = "/#/login";
     }
+    return config;
 }, error => {
     Promise.reject(error);
 })

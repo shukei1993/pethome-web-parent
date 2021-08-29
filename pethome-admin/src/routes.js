@@ -18,6 +18,7 @@ import ShopRegister from './views/ShopRegister'
 import ShopRegister2 from './views/ShopRegister2'
 import SearchMasterInfo from './views/pet/SearchMasterInfo'
 import Pet from './views/pet/Pet'
+import AdoptOrder from './views/pet/AdoptOrder'
 
 let routes = [
     {
@@ -85,6 +86,7 @@ let routes = [
         children: [
             { path: '/searchMasterInfo', component: SearchMasterInfo, name: '寻主信息推送' },
             { path: '/pet', component: Pet, name: '上架管理' },
+            { path: '/adoptOrder', component: AdoptOrder, name: '领养订单' },
             { path: '/user', component: user, name: '列表' },
         ]
     },

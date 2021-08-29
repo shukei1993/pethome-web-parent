@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d91cd6f-b870-42f6-8bba-a4371fdd6906" name="Default" comment="后台登录,前端页面展示">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/common/js/quill-config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/pet/Pet.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../pethome-front/publish.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/views/pet/AdoptOrder.vue" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change beforePath="$PROJECT_DIR$/src/views/org/Department.vue" afterPath="$PROJECT_DIR$/src/views/org/Department.vue" />
-      <change beforePath="$PROJECT_DIR$/src/views/pet/SearchMasterInfo.vue" afterPath="$PROJECT_DIR$/src/views/pet/SearchMasterInfo.vue" />
+      <change beforePath="$PROJECT_DIR$/src/views/Login.vue" afterPath="$PROJECT_DIR$/src/views/Login.vue" />
+      <change beforePath="$PROJECT_DIR$/src/views/pet/Pet.vue" afterPath="$PROJECT_DIR$/src/views/pet/Pet.vue" />
       <change beforePath="$PROJECT_DIR$/../pethome-front/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pethome-front/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../pethome-front/callbackpackage.html" afterPath="$PROJECT_DIR$/../pethome-front/callbackpackage.html" />
-      <change beforePath="$PROJECT_DIR$/../pethome-front/index.html" afterPath="$PROJECT_DIR$/../pethome-front/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,30 +36,53 @@
       <file leaf-file-name="Pet.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/pet/Pet.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="314" column="70" lean-forward="false" selection-start-line="314" selection-start-column="70" selection-end-line="314" selection-end-column="70" />
+            <state relative-caret-position="716">
+              <caret line="454" column="42" lean-forward="false" selection-start-line="454" selection-start-column="42" selection-end-line="454" selection-end-column="42" />
               <folding>
+                <element signature="n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#9628#9820#0" expanded="false" />
-                <element signature="e#9881#10044#0" expanded="false" />
-                <element signature="e#10108#10354#0" expanded="false" />
-                <element signature="e#10410#12036#0" expanded="false" />
-                <element signature="e#10548#10603#0" expanded="false" />
-                <element signature="e#10616#11820#0" expanded="false" />
-                <element signature="e#10695#11801#0" expanded="false" />
-                <element signature="e#11834#12020#0" expanded="false" />
-                <element signature="e#11898#12000#0" expanded="false" />
-                <element signature="e#14665#15876#0" expanded="false" />
-                <element signature="e#14667#14702#0" expanded="false" />
-                <element signature="e#14759#15051#0" expanded="false" />
-                <element signature="e#15322#15353#0" expanded="false" />
-                <element signature="e#15438#15738#0" expanded="false" />
-                <element signature="e#15922#16416#0" expanded="false" />
-                <element signature="e#16465#18367#0" expanded="false" />
-                <element signature="e#18450#18950#0" expanded="false" />
-                <element signature="e#19016#19760#0" expanded="false" />
+                <element signature="n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#9027#9155#0" expanded="false" />
+                <element signature="e#9207#9636#0" expanded="false" />
+                <element signature="e#9681#9873#0" expanded="false" />
+                <element signature="e#9934#10097#0" expanded="false" />
+                <element signature="e#10161#10407#0" expanded="false" />
+                <element signature="e#10463#12089#0" expanded="false" />
+                <element signature="e#10601#10656#0" expanded="false" />
+                <element signature="e#10669#11873#0" expanded="false" />
+                <element signature="e#10748#11854#0" expanded="false" />
+                <element signature="e#11887#12073#0" expanded="false" />
+                <element signature="e#11951#12053#0" expanded="false" />
+                <element signature="e#12132#13396#0" expanded="false" />
+                <element signature="e#13438#14661#0" expanded="false" />
+                <element signature="e#14718#15929#0" expanded="false" />
+                <element signature="e#14720#14755#0" expanded="false" />
+                <element signature="e#14812#15104#0" expanded="false" />
+                <element signature="e#15375#15406#0" expanded="false" />
+                <element signature="e#15491#15791#0" expanded="false" />
+                <element signature="e#15975#16469#0" expanded="false" />
+                <element signature="e#16518#18420#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdoptOrder.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/pet/AdoptOrder.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +115,7 @@
       <find>intro</find>
       <find>sels</find>
       <find>selsChange</find>
+      <find>handleRemove</find>
     </findStrings>
     <replaceStrings>
       <replace>saveForm</replace>
@@ -122,16 +140,16 @@
         <option value="$PROJECT_DIR$/src/views/emp/Employee.vue" />
         <option value="$PROJECT_DIR$/src/views/role/Role.vue" />
         <option value="$PROJECT_DIR$/src/views/org/Employee.vue" />
-        <option value="$PROJECT_DIR$/src/views/Login.vue" />
         <option value="$PROJECT_DIR$/src/views/org/ShopManagement.vue" />
         <option value="$PROJECT_DIR$/src/views/pet/SearchMasterInfo.vue" />
         <option value="$PROJECT_DIR$/src/views/pet/pet.vue" />
-        <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/views/org/Shop.vue" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/common/js/quill-config.js" />
         <option value="$PROJECT_DIR$/src/views/org/Department.vue" />
         <option value="$PROJECT_DIR$/src/views/pet/Pet.vue" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/views/Login.vue" />
       </list>
     </option>
   </component>
@@ -151,8 +169,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
-    <option name="y" value="10" />
+    <option name="x" value="61" />
+    <option name="y" value="54" />
     <option name="width" value="1739" />
     <option name="height" value="1029" />
   </component>
@@ -194,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,12 +219,24 @@
               <item name="pethome-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pethome-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pethome-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pethome-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -216,16 +245,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pethome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\common\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\views\pet" />
       <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\views\permission" />
       <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\views\org" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\views\pet" />
+      <recent name="D:\software\Java\IDEA\idea_worksapce_2017\pethome-web-parent\pethome-admin\src\common\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,7 +389,11 @@
       <workItem from="1629677022801" duration="22074000" />
       <workItem from="1629765857772" duration="8171000" />
       <workItem from="1629790577617" duration="9073000" />
-      <workItem from="1629813608904" duration="21000" />
+      <workItem from="1629813608904" duration="50000" />
+      <workItem from="1629853307301" duration="9885000" />
+      <workItem from="1630112889173" duration="173000" />
+      <workItem from="1630219709050" duration="42000" />
+      <workItem from="1630220243491" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="后台登录,前端页面展示">
       <created>1629677148623</created>
@@ -368,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1629677148623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="后台登录,宠物管理(前端)">
+      <created>1629813650390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629813650390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117091000" />
+    <option name="totallyTimeSpent" value="127228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +425,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="169" y="10" width="1739" height="1029" extended-state="0" />
+    <frame x="61" y="54" width="1739" height="1029" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -393,19 +434,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23263507" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41436464" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29116946" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16031457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2123412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290986" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -423,7 +464,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290986" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -433,10 +474,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41436464" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16090713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29116946" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21274298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -450,7 +491,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="后台登录,前端页面展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台登录,前端页面展示" />
+    <MESSAGE value="后台登录,宠物管理(前端)" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台登录,宠物管理(前端)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,13 +501,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/org/Department.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="256" column="26" lean-forward="false" selection-start-line="256" selection-start-column="26" selection-end-line="256" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -739,36 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/pet/SearchMasterInfo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="70" lean-forward="false" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#template#0;n#el-form-item#3;n#el-form#0;n#template#0;n#el-table-column#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#template#0;n#el-form-item#3;n#el-form#0;n#template#0;n#el-table-column#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#4376#4383#0" expanded="false" />
-            <element signature="e#4409#4416#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="86" column="55" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
-          <folding>
-            <element signature="e#416#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/system/DictionaryType.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -781,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="55" column="65" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/js/quill-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -827,31 +823,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/pet/SearchMasterInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="3" column="70" lean-forward="false" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/pet/AdoptOrder.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/pet/Pet.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="314" column="70" lean-forward="false" selection-start-line="314" selection-start-column="70" selection-end-line="314" selection-end-column="70" />
+        <state relative-caret-position="716">
+          <caret line="454" column="42" lean-forward="false" selection-start-line="454" selection-start-column="42" selection-end-line="454" selection-end-column="42" />
           <folding>
+            <element signature="n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#el-dialog#0;n#section#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#9628#9820#0" expanded="false" />
-            <element signature="e#9881#10044#0" expanded="false" />
-            <element signature="e#10108#10354#0" expanded="false" />
-            <element signature="e#10410#12036#0" expanded="false" />
-            <element signature="e#10548#10603#0" expanded="false" />
-            <element signature="e#10616#11820#0" expanded="false" />
-            <element signature="e#10695#11801#0" expanded="false" />
-            <element signature="e#11834#12020#0" expanded="false" />
-            <element signature="e#11898#12000#0" expanded="false" />
-            <element signature="e#14665#15876#0" expanded="false" />
-            <element signature="e#14667#14702#0" expanded="false" />
-            <element signature="e#14759#15051#0" expanded="false" />
-            <element signature="e#15322#15353#0" expanded="false" />
-            <element signature="e#15438#15738#0" expanded="false" />
-            <element signature="e#15922#16416#0" expanded="false" />
-            <element signature="e#16465#18367#0" expanded="false" />
-            <element signature="e#18450#18950#0" expanded="false" />
-            <element signature="e#19016#19760#0" expanded="false" />
+            <element signature="n#el-col#1;n#section#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#9027#9155#0" expanded="false" />
+            <element signature="e#9207#9636#0" expanded="false" />
+            <element signature="e#9681#9873#0" expanded="false" />
+            <element signature="e#9934#10097#0" expanded="false" />
+            <element signature="e#10161#10407#0" expanded="false" />
+            <element signature="e#10463#12089#0" expanded="false" />
+            <element signature="e#10601#10656#0" expanded="false" />
+            <element signature="e#10669#11873#0" expanded="false" />
+            <element signature="e#10748#11854#0" expanded="false" />
+            <element signature="e#11887#12073#0" expanded="false" />
+            <element signature="e#11951#12053#0" expanded="false" />
+            <element signature="e#12132#13396#0" expanded="false" />
+            <element signature="e#13438#14661#0" expanded="false" />
+            <element signature="e#14718#15929#0" expanded="false" />
+            <element signature="e#14720#14755#0" expanded="false" />
+            <element signature="e#14812#15104#0" expanded="false" />
+            <element signature="e#15375#15406#0" expanded="false" />
+            <element signature="e#15491#15791#0" expanded="false" />
+            <element signature="e#15975#16469#0" expanded="false" />
+            <element signature="e#16518#18420#0" expanded="false" />
           </folding>
         </state>
       </provider>

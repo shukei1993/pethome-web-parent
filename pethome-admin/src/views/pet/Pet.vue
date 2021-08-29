@@ -107,6 +107,7 @@
                     <el-input v-model="saveForm.costprice" auto-complete="off"></el-input>
                 </el-form-item>
                 <el-form-item label="宠物靓照">
+                    <!--:on-remove="handleRemove"-->
                     <el-upload
                             class="upload-demo"
                             action="http://localhost:8080/fastDfs/upload"
@@ -438,15 +439,21 @@
             // 10.多文件文件上传成功回调
             handleSuccess(response, file, fileList){
                 var str = '';
+                console.debug("fileList"+fileList);
                 for (let i = 0; i < fileList.length; i++) {
                     if (i < fileList.length - 1) {
-                        str += fileList[i].response.resultObj + ",";
+                        if (fileList[i].response != null) {
+                            str += fileList[i].response.resultObj + ",";
+                        }
+                        console.debug(fileList[i]);
                     } else {
                         str += fileList[i].response.resultObj;
+                        console.debug(fileList[i]);
                     }
                 }
                 // 将返回的path赋值给resources
                 this.saveForm.resources = str;
+                console.debug(str);
                 console.debug(this.saveForm.resources);
             },
             // 11.文件删除
@@ -463,6 +470,7 @@
                             type: 'success',
                             message: '已删除'
                         });
+                        this.saveForm.resources = "";
                     } else {
                         this.$message.error({
                             type: 'warning',
