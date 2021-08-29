@@ -21,6 +21,8 @@ axios.interceptors.request.use(config => {
 axios.interceptors.response.use(config => {
     // console.debug(config.data);
     if (config.data.message === "noAuth" && !config.data.success) {
+        localStorage.removeItem("token")
+        localStorage.removeItem("loginInfo")
         location.href = "/login.html";
     }
     return config;

@@ -22,11 +22,17 @@
     <script src="js/plugins/vue/dist/vue.min.js"></script>
     <script src="js/plugins/axios/dist/axios.min.js"></script>
     <script src="js/commons.js"></script>
-
+    <!-- jquery -->
+    <script src="js/jquery-1.7.2.min.js"></script>
 </head>
 
 <body>
 <div id="app">
+    <!-- 拉起支付宝平台支付页面 -->
+    <div id="aliPay">
+
+    </div>
+
     <!--顶部导航条 -->
     <div class="am-container header">
         <ul class="message-l">
@@ -467,7 +473,9 @@
                     };
                     // 发送请求
                     this.$http.post("/adopt/order", param).then(res => {
-                        console.debug(res);
+                        // console.debug(res.data.resultObj);
+                        // 拉起支付宝支付页面
+                        $("#aliPay").html(res.data.resultObj);
                     })
                 }
             },
